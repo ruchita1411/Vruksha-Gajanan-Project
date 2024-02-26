@@ -1,0 +1,17 @@
+ProductList .container {
+  max-width: 100%;
+  justify-content: center;
+}
+ProductList .pic img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-style: solid;
+  border-color: green;
+  object-fit: contain;
+}
+ProductList .img:hover {
+  /* transform: scale(1.2); */
+  object-fit: cover;
+  cursor: pointer;
+}
